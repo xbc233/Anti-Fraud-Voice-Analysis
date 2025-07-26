@@ -22,8 +22,8 @@ import nls
 
 # 阿里云NLS配置
 URL = "wss://nls-gateway-cn-shanghai.aliyuncs.com/ws/v1"
-TOKEN = "d994b669ec2a48c2888ea2286c125afd"  # 参考https://help.aliyun.com/document_detail/450255.html获取token
-APPKEY = "fslKImTYtp8TAPsv"  # 获取Appkey请前往控制台：https://nls-portal.console.aliyun.com/applist
+TOKEN = ""  # 参考https://help.aliyun.com/document_detail/450255.html获取token
+APPKEY = ""  # 获取Appkey请前往控制台：https://nls-portal.console.aliyun.com/applist
 
 
 def parse_slidev_md(md_file: str) -> List[Dict]:
